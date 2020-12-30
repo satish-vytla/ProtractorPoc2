@@ -1,0 +1,42 @@
+{
+  "name": "WebAppUIAutomation",
+  "organization": "SatishVytla",
+  "version": "1.0.0",
+  "description": "Protractor automation for POC",
+  "main": "config.js",
+  "scripts": {
+    "ftest": "protractor config.js --params.env=ftest --params.appUrl=https://sbbcore.azurewebsites.net/login --params.domain=https://apps.ftest.fun.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com"
+  },
+  "keywords": [
+    "Protractor"
+  ],
+  "author": "Satish Vytla",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "6.4.0",
+    "es6": "0.0.7",
+    "faker": "4.1.0",
+    "frisby": "^2.1.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-fail-fast": "^2.0.1",
+    "jasmine-reporters": "^2.3.0",
+    "lodash": "^4.17.19",
+    "log4js": "^6.3.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.22.2",
+    "path": "^0.12.7",
+    "protractor": "^7.0.0",
+    "protractor-fail-fast": "^3.1.0",
+    "protractor-html-reporter": "^1.3.2",
+    "request": "^2.85.0",
+    "request-promise": "4.2.2",
+    "update-json-file": "^1.1.1",
+    "xml2js": "^0.4.19"
+  }
+}
